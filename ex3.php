@@ -11,6 +11,6 @@
     echo "</table>";
 }
 
-echo "Le tableau de l''exerciçe 3  est : ".createHTMLTable(2,5)
+echo "Le tableau de l''exerciçe 3 est : ".createHTMLTable(2,5)
 ?>
 
