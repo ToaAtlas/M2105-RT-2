@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+<title>Hello</title>
+        </head>
+        <body>
+<?php
+//echo("Hello world !");
+?>
+      <title>phpInfo</title>
+<?php
+//phpinfo();
+?>
+
+            
+            
+            
+            
+            
+<?php
+//un entier:
+$i=5;
+echo($i."<br>");
+
+//cela affiche la valeur de $i ET cela ramène à la ligne
+
+//un booléen:
+$b=true;
+echo($b);
+//cela affiche la valeur de $b et comme true=1 cela affiche "1"
+?>
+            
+<br>
+
+<?php
+$str="1 chaîne";
+echo "\$str est : ".gettype($str).".<br>\n";
+//cela permet de renvoyer le type qu'est la variable str
+// "\n" permet de renvoyer DANS LE CODE SOURCE
+echo $str."<br>";
+echo $i." accessible depuis un autre bloc de script<br>\n";
+echo "Ajout d'un entier et d'une chaîne : ".($i+$str)."<br>\n";
+$i="devenu une chaîne";
+ 
+echo "La variable $i est devenue une chaîne : ".$i."<br>\n";
+echo 'La variable $i est devenue une chaîne : '.$i."<br>\n";
+?>
+        </body>
+    </html>
